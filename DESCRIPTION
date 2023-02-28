@@ -1,0 +1,11 @@
+Package: matcult
+Type: Package
+Title: A package to manipulate archaeological material culture data
+Version: 0.1.0
+Author: Olivier
+Maintainer: Olivier Pilette <pilette.o@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: None
+Encoding: UTF-8
+LazyData: true
