@@ -1,5 +1,5 @@
-objSum2 <- function(x){
-  
+objsum <- function(x){
+
   if (!requireNamespace("tidyverse", quietly = TRUE)) {
     install.packages("tidyverse")
     library(tidyverse)
@@ -17,6 +17,6 @@ objSum2 <- function(x){
   x <- aggregate(x[,2], list(x[,1]), FUN=sum)
   x <- separate(x, col = 1, into = c("c1", "c2"), sep = " ")
   colnames(x) <- val
-  assign("output", x, envir = .GlobalEnv)
-  
+  assign("objsum", x, envir = .GlobalEnv)
+
 }
